@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'exo';
+    src: url('./assets/ExoSoft-Medium.woff')  format('woff')
+}
+
+
+@font-face {
+    font-family: 'grand';
+    src: url('./assets/Grandrainbowdemo.woff')  format('woff')
+}
+
+
+#root {
+    min-height: 100vh;
+    background-color: rgb(248 ,250, 252,  50);
+    /*//继承属性 no-scroll*/
+
+}
+
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+
+
+
